@@ -1,0 +1,361 @@
+/* if you want to font in every html tag then  */
+
+
+/* 
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    font-family: Georgia Regular;
+} */
+
+
+/* Alternative "star for all tag use" */
+
+* {
+    font-family: Georgia Regular;
+}
+
+
+/*For Remove Underline in ancher Tag*/
+
+a {
+    text-decoration: none;
+}
+
+
+/*List Style Hobe na Tar jonno*/
+
+ul {
+    list-style: none;
+}
+
+
+/*Header Top*/
+
+
+/* For Background Color */
+
+
+/* padding for uper and Down faka rakhar jonno */
+
+.header-top {
+    background: #55415f;
+    padding: 12px;
+}
+
+
+/* For upore Khali Rakbe Na Ar list hesabe Thakbe Na */
+
+.header-menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Word gulo ba dike chole jabe */
+
+.header-menu ul li {
+    float: left;
+}
+
+
+/* kono menu ancher word er pass e kichu add korar jonno after content use korte hoy */
+
+.header-menu ul li:after {
+    content: '|';
+    color: #ffffff;
+}
+
+
+/*last option ke Hide Korar Jonno*/
+
+
+/* dont space after and Before colon */
+
+.header-menu ul li:last-child:after {
+    content: '';
+}
+
+
+/* header er word er porer */
+
+.header-top:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+/* menu ta Right e chole jabar jonno */
+
+.header-menu {
+    float: right;
+}
+
+
+/* ancher tag or link Tag Design */
+
+.header-menu ul li a {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: normal;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
+/* Header Top End */
+
+.header-bottom {
+    padding: 30px;
+    padding-bottom: 60px;
+}
+
+
+/* Logo Size er jonno */
+
+
+/* Kon side e thakbe tar jonno */
+
+
+/* Besi Jodi dakhay hide hoye jabe */
+
+.logo {
+    width: 30%;
+    float: left;
+    overflow: hidden;
+}
+
+
+/* Size koto hobe */
+
+
+/* Kon Dike thakbe */
+
+
+/* Hasi Hole Hide Hoye Jabe */
+
+.main-menu {
+    width: 70%;
+    float: right;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+
+/* menu bhetor er word line ta kamon hobe */
+
+.main-menu ul {
+    margin: 0;
+    padding: 0;
+    float: right;
+    border-bottom: 0.1px solid #ebebeb;
+}
+
+
+/* Menu er line ta por por aser jonno "float: left;" */
+
+
+/* Nicher dike faka rakhar Jonno */
+
+
+/* menu neche border er moto rakhar jonno bo "border-bottom: 2px solid #333333;" */
+
+
+/* menu hover Effict
+.main-menu ul li{
+    float: left;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #EDEDED;
+}
+.main-menu ul li:hover{
+    border-bottom: 3px solid #333333;
+}
+*/
+
+.main-menu ul li {
+    float: left;
+}
+
+
+/* text er alphabate gulo ke uppercase korar jonno text-transform korte hoy */
+
+
+/*font er size ta normal thaker jonno*/
+
+.main-menu ul li a {
+    text-transform: uppercase;
+    color: #333333;
+    font-size: 14px;
+    font-weight: normal;
+    margin-right: 15px;
+    padding-bottom: 10px;
+    display: block;
+    border-bottom: 3px solid transparent;
+}
+
+.main-menu ul li a:hover {
+    border-bottom: 3px solid #55415f;
+}
+
+.main-menu ul li:last-child a {
+    margin: 0;
+}
+
+
+/* for active menu */
+
+.main-menu .current a {
+    border-bottom: 3px solid #55415f;
+}
+
+
+/* Monitor Area */
+
+.monitor-area {
+    background: #ebebeb;
+}
+
+
+/* Content Background Full Show Korer Jonno */
+
+.monitor-area:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.monitor {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    padding: 50px 15px;
+    padding-left: 24px;
+    box-sizing: border-box;
+}
+
+.monitor img {
+    width: 100%;
+}
+
+.monitor-content {
+    width: 44%;
+    overflow: hidden;
+    float: right;
+    padding-right: 3%;
+    box-sizing: border-box;
+}
+
+.monitor-title h1 {
+    text-transform: uppercase;
+    margin-top: 300px;
+    color: #333333;
+}
+
+.monitor-text p {
+    text-transform: lowercase;
+    padding-right: 5%;
+}
+
+.monitor-button a {
+    background: #55415f;
+    text-transform: uppercase;
+    color: white;
+}
+
+.monitor-button a:hover {
+    color: rgb(255, 0, 0);
+}
+
+.text-block {
+    width: 100%;
+}
+
+.arrow-left {
+    float: left;
+}
+
+.arrow-right {
+    transform: rotateY(180deg);
+    float: right;
+}
+
+.text-block {}
+
+.small-thumbnail {
+    margin: 120px 120px;
+}
+
+.thumbnail {
+    width: 20%;
+    float: left;
+    margin: 20px;
+}
+
+.single-line {
+    border-bottom: 1px solid #d7d7d7;
+}
+
+.quote {
+    margin: 50px;
+    padding: 50px;
+}
+
+.quote h3 {
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: #a9a9a9;
+    margin: 20px;
+    padding: 20px;
+}
+
+.thumbnail-content {
+    margin: 70px 70px;
+}
+
+.img-thumb {
+    width: 20%;
+    color: #55415f;
+    float: left;
+    margin: 20px;
+}
+
+.footer {
+    width: 0;
+    padding: 0;
+    float: left;
+    width: 25%;
+    background: #222222;
+    margin: 20px 20px;
+}
+
+.footer-block {
+    float: left;
+    margin: 20px 20px 20px 0px;
+}
+
+.footer-block h3 {
+    color: #ffffff;
+}
+
+.footer-block #submit {
+    background: #9f81a9;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+}
+
+.copyright-text {
+    float: left;
+}
+
+.end-right {
+    float: right;
+}
