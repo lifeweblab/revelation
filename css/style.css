@@ -253,6 +253,7 @@ ul {
 }
 
 .monitor-title h1 {
+    font-variant: small-caps;
     text-transform: uppercase;
     margin-top: 300px;
     color: #333333;
@@ -290,6 +291,7 @@ ul {
 
 .small-thumbnail {
     margin: 120px 120px;
+    text-align: center;
 }
 
 .thumbnail {
@@ -318,6 +320,7 @@ ul {
 
 .thumbnail-content {
     margin: 70px 70px;
+    text-align: center;
 }
 
 .img-thumb {
